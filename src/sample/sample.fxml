@@ -6,15 +6,14 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane  maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-             prefHeight="500.0" prefWidth="600.0"
-             xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="547.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Button layoutX="274.0" layoutY="39.0" mnemonicParsing="false" onAction="#met_pop" text="вставка" />
       <Button layoutX="343.0" layoutY="39.0" mnemonicParsing="false" onAction="#met_del" text="удаление" />
       <Button layoutX="421.0" layoutY="39.0" mnemonicParsing="false" onAction="#met_search" text="поиск" />
       <TextField fx:id="value" layoutX="86.0" layoutY="39.0" prefHeight="25.0" prefWidth="37.0" />
       <Label layoutX="132.0" layoutY="39.0" prefHeight="25.0" prefWidth="133.0" text="это текущее значение" />
-      <ListView fx:id="list_w" layoutX="86.0" layoutY="107.0" prefHeight="300.0" prefWidth="400.0" />
+      <ListView fx:id="list_w" layoutX="86.0" layoutY="139.0" prefHeight="300.0" prefWidth="400.0" />
+      <Label fx:id="news_arr" layoutX="86.0" layoutY="75.0" prefHeight="47.0" prefWidth="392.0" />
    </children>
 </AnchorPane>

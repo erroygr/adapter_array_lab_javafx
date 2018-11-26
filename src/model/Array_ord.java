@@ -1,10 +1,12 @@
 package model;
 
+import java.util.ArrayList;
+
 public interface Array_ord {
      int size();
-     int find(long searchKey);
-     void insert(long value);
-     boolean delete(long value);
-     String display();
+     String  find(String searchKey);
+     void insert(String value);
+     boolean delete(String value);
+     ArrayList<String> display();
 
 }
